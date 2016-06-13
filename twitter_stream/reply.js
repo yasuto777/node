@@ -1,5 +1,6 @@
 // twitterモジュールを読み込み
 var twitter = require('twitter');
+var growl = require('growl');
 
 // アプリ登録時に取得したkeyを入れてOAuth認証し、初期化
 var client = new twitter({
@@ -15,6 +16,7 @@ client.stream( 'statuses/filter', { track : '@zomqyqzvto' }, function( stream ) 
 	stream.on( 'data', function( data ) {
 		var text = data.text; // ツイートのテキスト
 		var textCleaned = text.replace( /@zomqyqzvto/g, "" ); // アカウント名は不要
-		console.log( textCleaned );
+		//console.log( textCleaned );
+		growl(textCleaned);
 	});
 });
