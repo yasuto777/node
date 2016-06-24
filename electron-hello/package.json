@@ -1,0 +1,16 @@
+{
+  "name": "electron-hello",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "yasuto777",
+  "license": "MIT",
+  "dependencies": {
+    "app": "^0.1.0"
+  },
+  "devDependencies": {}
+}
