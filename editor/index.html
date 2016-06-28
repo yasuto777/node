@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Editor</title>
+    <script src="node_modules/ace-min-noconflict/ace.js"></script>
+    <script src="node_modules/ace-min-noconflict/theme-monokai.js"></script>
+    <script src="node_modules/ace-min-noconflict/mode-javascript.js"></script>
+    <script src="editor.js"></script>
+</head>
+
+<body>
+    <div id="editor" style="height:600px"></div>
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/monokai");
+    </script>
+</body>
+
+</html>

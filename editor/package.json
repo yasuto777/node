@@ -1,0 +1,16 @@
+{
+  "name": "editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "app": "^0.1.0",
+    "ace-min-noconflict": "^1.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yasuto777",
+  "license": "MIT"
+}
