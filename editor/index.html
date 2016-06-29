@@ -8,20 +8,12 @@
     <script src="node_modules/ace-min-noconflict/ace.js"></script>
     <script src="node_modules/ace-min-noconflict/theme-monokai.js"></script>
     <script src="node_modules/ace-min-noconflict/mode-javascript.js"></script>
-    <script src="editor.js"></script>
+    <!--script src="editor.js"></script-->
 </head>
 
 <body>
     <div id="editor" style="height:600px"></div>
-    <script>
-        var editor = ace.edit("editor");
-        editor.setTheme("ace/theme/monokai");
-        editor.getSession().setMode("ace/mode/javascript");
-        //折り返し有効化
-        editor.getSession().setUseWrapMode(true);
-        //タブ幅2に設定
-        editor.getSession().setTabSize(2);
-    </script>
+    <script src="editor.js"></script>
 </body>
 
 </html>
