@@ -1,0 +1,14 @@
+{
+  "name": "abema_browser",
+  "version": "1.0.0",
+  "description": "abematv browser",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "abematv"
+  ],
+  "author": "yasuto777",
+  "license": "MIT"
+}
